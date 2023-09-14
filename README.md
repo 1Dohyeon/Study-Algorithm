@@ -1,2 +1,2 @@
-# Study-Algorithm
+# Study-Algorithms
 py + java
