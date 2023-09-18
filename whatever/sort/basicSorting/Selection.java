@@ -1,4 +1,4 @@
-package sort.basic;
+package sort.basicSorting;
 
 public class Selection {
     public static void main(String[] args) {
