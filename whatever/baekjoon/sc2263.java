@@ -1,50 +1,51 @@
 package baekjoon;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class sc2263 {
     static StringBuffer sb = new StringBuffer();
     static int[] inorder;
-    static int[] inorderIndex;
     static int[] postorder;
-    static int n;
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        n = Integer.parseInt(st.nextToken());
+    static int[] index;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         inorder = new int[n];
         postorder = new int[n];
-        inorderIndex = new int[n+1];
-        st = new StringTokenizer(br.readLine());
-        for(int i=0; i<n; i++) {
-            inorder[i] = Integer.parseInt(st.nextToken());
+        index = new int[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            inorder[i] = sc.nextInt();
         }
-        st = new StringTokenizer(br.readLine());
-        for(int i=0; i<n; i++) {
-            postorder[i] = Integer.parseInt(st.nextToken());
+
+        for (int i = 0; i < n; i++) {
+            postorder[i] = sc.nextInt();
         }
-        for(int i=0; i<n; i++) {
-            inorderIndex[inorder[i]] = i;
+
+        for (int i = 0; i < n; i++) {
+            index[inorder[i]] = i;
         }
-        getPreOrder(0, n-1, 0, n-1);
+
+        PreOrder(0, n - 1, 0, n - 1);
         System.out.println(sb);
+
+        sc.close();
     }
-    public static void getPreOrder(int in_start,int in_end,int p_start,int p_end) {
-        if(in_start > in_end || p_start > p_end) {
+
+    public static void PreOrder(int inStart, int inEnd, int postStart, int postEnd) {
+        if (inStart > inEnd || postStart > postEnd) {
             return;
         }
 
-        int rootNode = postorder[p_end];
-        sb.append(rootNode + " ");
+        int root = postorder[postEnd];
+        sb.append(root).append(" ");
 
-        int rootIndex = inorderIndex[rootNode];
-        int leftNodeLength = rootIndex - in_start;
+        int rootIndex = index[root];
+        int leftSize = rootIndex - inStart;
 
-        getPreOrder(in_start,rootIndex-1,p_start,p_start+leftNodeLength-1);
+        PreOrder(inStart, rootIndex - 1, postStart, postStart + leftSize - 1);
 
-        getPreOrder(rootIndex+1, in_end, p_start+leftNodeLength, p_end-1);
+        PreOrder(rootIndex + 1, inEnd, postStart + leftSize, postEnd - 1);
     }
 }
