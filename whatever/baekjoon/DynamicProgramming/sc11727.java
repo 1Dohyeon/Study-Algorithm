@@ -1,6 +1,6 @@
 package baekjoon.DynamicProgramming;
 
-public class sc1932 {
+public class sc11727 {
     public static void main(String[] args) {
 
     }
