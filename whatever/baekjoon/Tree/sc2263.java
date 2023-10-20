@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.Tree;
 
 import java.util.Scanner;
 
