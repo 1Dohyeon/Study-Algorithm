@@ -8,6 +8,7 @@ public class sc2839 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
+        System.out.println("´ä: ");
         System.out.println(solution(N));
         sc.close();
     }
