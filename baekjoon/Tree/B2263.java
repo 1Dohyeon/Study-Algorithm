@@ -2,7 +2,7 @@ package baekjoon.Tree;
 
 import java.util.Scanner;
 
-public class sc2263 {
+public class B2263 {
     static StringBuffer sb = new StringBuffer();
     static int[] inorder;
     static int[] postorder;

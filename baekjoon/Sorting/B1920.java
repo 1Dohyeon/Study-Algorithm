@@ -3,7 +3,7 @@ package baekjoon.Sorting;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class sc1920 {
+public class B1920 {
 
     /**
      * BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

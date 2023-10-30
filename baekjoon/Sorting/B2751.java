@@ -2,7 +2,7 @@ package baekjoon.Sorting;
 
 import java.util.Scanner;
 
-public class sc2751 {
+public class B2751 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

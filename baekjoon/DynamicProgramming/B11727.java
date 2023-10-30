@@ -2,7 +2,7 @@ package baekjoon.DynamicProgramming;
 
 import java.util.Scanner;
 
-public class sc11727 {
+public class B11727 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

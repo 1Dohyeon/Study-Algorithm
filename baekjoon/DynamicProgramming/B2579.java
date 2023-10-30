@@ -2,7 +2,7 @@ package baekjoon.DynamicProgramming;
 
 import java.util.Scanner;
 
-public class sc2579 {
+public class B2579 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -21,7 +21,7 @@ public class sc2579 {
 
         result[1] = arr[1];
 
-        // N=1이 입력될 경우 arr[2]는 존재하지 않으므로 조건이 없다면 에러가 뜨게 된다.
+        // n(stairSize)=1이 입력될 경우 arr[2]는 존재하지 않으므로 조건이 없다면 에러가 뜸
         if(stairSize>=2) {
             result[2] = arr[1] + arr[2];
         }
