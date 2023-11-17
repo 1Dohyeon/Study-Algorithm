@@ -5,7 +5,7 @@
 > 문제 유형별로 풀고 기록한 곳.
 - basic(기본 문법)
 - bruteForce
-- dataStructure(<a href="https://github.com/1Dohyeon/Study-DataStructure">자료구조 레파지토리</a>)
+- dataStructure(-> 참고: <a href="https://github.com/1Dohyeon/Study-DataStructure">자료구조 레파지토리</a>)
 - dynamicProgramming
 - greedy
 - math
