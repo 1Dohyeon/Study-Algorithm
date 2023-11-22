@@ -12,6 +12,6 @@
 - <a href="https://github.com/1Dohyeon/Study-Algorithms/tree/main/sorting">sorting</a>
 <br>
 
-> 아무거나 유형이나 풀고, 풀이 코드 모아둔 곳
+> 유형 분류 없이 풀고, 풀이 코드 모아둔 곳
 - whatever
 <br>
