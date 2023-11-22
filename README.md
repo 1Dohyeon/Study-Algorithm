@@ -13,5 +13,5 @@
 <br>
 
 > 유형 분류 없이 풀고, 풀이 코드 모아둔 곳
-- whatever
+- <a href="https://github.com/1Dohyeon/Study-Algorithms/tree/main/whatever">whatever</a>
 <br>
