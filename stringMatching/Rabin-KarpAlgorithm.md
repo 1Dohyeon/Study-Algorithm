@@ -43,7 +43,7 @@ basicRabinKarp(A, P, d) {		// n : 배열 A의 길이, m : 배열 P의 길이
 ### 라빈-카프(Rabin-Karp) 알고리즘
 
 **나머지 연산(modulo)** 을 통해서 `ai`의 크기를 제한할 수 있다.
-기존 식인 ai = d(ai-1 ? (d^m-1)xA[i-1]) + A[i+m-1] 대신에 bi = (d(bi-1 ? ((d^m-1) mod q)xA[i-1]) + A[i+m-1]) mod q 사용한다.  이때 q를 충분히 큰 소수(prime number)로 정한다.
+기존 식인 `ai = d(ai-1 ? (d^m-1)xA[i-1]) + A[i+m-1] `대신에 `bi = (d(bi-1 ? ((d^m-1) mod q)xA[i-1]) + A[i+m-1]) mod q` 사용한다.  이때 `q`를 충분히 큰 소수(prime number)로 정한다.
 
 **나머지 연산을 이용한 매칭 수도 코드**
 ```
