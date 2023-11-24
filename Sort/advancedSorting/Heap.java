@@ -1,4 +1,4 @@
-package sort.advancedSorting;
+package Sort.advancedSorting;
 
 public class Heap {
     public static void sort(Comparable[] a) {

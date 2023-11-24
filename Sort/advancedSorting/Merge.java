@@ -1,4 +1,4 @@
-package sort.advancedSorting;
+package Sort.advancedSorting;
 
 public class Merge {
     private static void merge(Comparable[] a, Comparable[] b, int low, int mid, int high) {
