@@ -1,59 +1,44 @@
-# Study-Algorithms
+### 01. Sort : ì •ë ¬ ì•Œê³ ë¦¬ì¦˜ ì •ë¦¬
+- [ë²„ë¸”ì •ë ¬, ì‚½ìž…ì •ë ¬, ì„ íƒì •ë ¬, í€µì •ë ¬, ë³‘í•©ì •ë ¬, íž™ì •ë ¬: ìžë£Œêµ¬ì¡° ì°¸ê³ ](https://github.com/1Dohyeon/Study-DataStructure/blob/master/06_sort_with_java/README.md)
+- 1.1 ê³„ìˆ˜ì •ë ¬
+- 1.2 ê¸°ìˆ˜ì •ë ¬
 
-### Folder
-> ¿©·¯ ¾Ë°í¸®Áò °³³äÀ» Á¤¸®ÇØ¼­ Æú´õ¸í ´ë·Î ºÐ·ù ÇØ³õÀ½.
+### 02. Selection : ì„ íƒ ì•Œê³ ë¦¬ì¦˜ ì •ë¦¬
+- 2.1 í€µ ì •ë ¬ ë°©ì‹ì„ ì´ìš©í•œ ì„ íƒ ì•Œê³ ë¦¬ì¦˜
+- 2.2 ì¤‘ì•™ê°’ì˜ ì¤‘ì•™ê°’ì„ ì´ìš©í•œ ì„ íƒ ì•Œê³ ë¦¬ì¦˜
 
-- DynamicProgramming : µ¿ÀûÇÁ·Î±×·¡¹Ö ¾Ë°í¸®Áò
-  - ÃÖÀå °øÅë ºÎºÐ ¼ø¼­(LCS) ¾Ë°í¸®Áò
-  
-- Graph : ±×·¡ÇÁ ¾Ë°í¸®Áò Á¤¸® 
-  - Å½»ö
-    - BFS
-    - DFS
+### 03. Tree : íŠ¸ë¦¬ ì•Œê³ ë¦¬ì¦˜ ì •ë¦¬
+- [BinarySearchTree ì´ì§„ê²€ìƒ‰íŠ¸ë¦¬ : ìžë£Œêµ¬ì¡° ì°¸ê³ ](https://github.com/1Dohyeon/Study-DataStructure/blob/master/03_Tree_with_java/README.md)
+- 3.1 2-3íŠ¸ë¦¬
+- 3.2 BíŠ¸ë¦¬
+- 3.3 ë ˆë“œë¸”ëž™íŠ¸ë¦¬
     
-  - ÃÖ¼Ò½ÅÀåÆ®¸®
-    - Prim ¾Ë°í¸®Áò
-    - Kruskal ¾Ë°í¸®Áò
+### 04. Graph : ê·¸ëž˜í”„ ì•Œê³ ë¦¬ì¦˜ ì •ë¦¬
+- íƒìƒ‰
+	- [BFS, DFS : ìžë£Œêµ¬ì¡° ì°¸ê³ ]()
+- ìµœì†Œì‹ ìž¥íŠ¸ë¦¬
+	- 4.1 Prim ì•Œê³ ë¦¬ì¦˜
+	- 4.2 Kruskal ì•Œê³ ë¦¬ì¦˜
+- ìœ„ìƒì •ë ¬
+	- 4.3 TopologicalSort ì•Œê³ ë¦¬ì¦˜
+- ìµœë‹¨ê²½ë¡œ
+	- 4.4 Dijkstra ì•Œê³ ë¦¬ì¦˜
+	- 4.5 Bellman-Ford ì•Œê³ ë¦¬ì¦˜
+	- 4.6 Floyd-Warshall ì•Œê³ ë¦¬ì¦˜
+- ì‹¸ì´í´ì´ ì—†ëŠ” ê·¸ëž˜í”„ì—ì„œì˜ ìµœë‹¨ ê²½ë¡œ
+	- 4.7 DAT
+- ê°•ì—°ê²°ìš”ì†Œ
+	- 4.8 StronglyConnectedComponent ì•Œê³ ë¦¬ì¦˜
+
+### 05. DynamicProgramming : ë™ì í”„ë¡œê·¸ëž˜ë° ì•Œê³ ë¦¬ì¦˜
+- 5.1 ìµœìž¥ ê³µí†µ ë¶€ë¶„ ìˆœì„œ(LCS) ì•Œê³ ë¦¬ì¦˜
+
+### 06. Greedy : ëˆˆ ì•žì— ë³´ì´ëŠ” ìµœì ì˜ í•´ë¥¼ êµ¬í•˜ëŠ” ì•Œê³ ë¦¬ì¦˜
+- 6.1 íšŒì˜ì‹¤ ë°°ì •
+- 6.2 Huffman Code ì•Œê³ ë¦¬ì¦˜
     
-  - À§»óÁ¤·Ä
-    - TopologicalSort ¾Ë°í¸®Áò
-    
-  - ÃÖ´Ü°æ·Î
-    - Dijkstra ¾Ë°í¸®Áò
-    - Bellman-Ford ¾Ë°í¸®Áò
-    - Floyd-Warshall ¾Ë°í¸®Áò
-    
-  - ½ÎÀÌÅ¬ÀÌ ¾ø´Â ±×·¡ÇÁ¿¡¼­ÀÇ ÃÖ´Ü °æ·Î
-    - DAT
-    
-  - °­¿¬°á¿ä¼Ò
-    - StronglyConnectedComponent ¾Ë°í¸®Áò
-      
-- Greedy : ´« ¾Õ¿¡ º¸ÀÌ´Â ÃÖÀûÀÇ ÇØ¸¦ ±¸ÇÏ´Â ¾Ë°í¸®Áò
-  - ±×·¡ÇÁ ÃÖ¼Ò½ÅÀåÆ®¸®¸¦ ±¸ÇÏ´Â Prim ¾Ë°í¸®Áò
-  - Huffman Code ¾Ë°í¸®Áò
-  
-- Selection : ¼±ÅÃ ¾Ë°í¸®Áò Á¤¸®
-  - Äü Á¤·Ä ¹æ½ÄÀ» ÀÌ¿ëÇÑ ¼±ÅÃ ¾Ë°í¸®Áò
-  - Áß¾Ó°ªÀÇ Áß¾Ó°ªÀ» ÀÌ¿ëÇÑ ¼±ÅÃ ¾Ë°í¸®Áò
-  
-- Sort : Á¤·Ä ¾Ë°í¸®Áò Á¤¸®
-  - ¹öºíÁ¤·Ä
-  - »ðÀÔÁ¤·Ä
-  - ¼±ÅÃÁ¤·Ä
-  - ÄüÁ¤·Ä
-  - º´ÇÕÁ¤·Ä
-  - ÈüÁ¤·Ä
-  - °è¼öÁ¤·Ä
-  - ±â¼öÁ¤·Ä
-  
-- StringMatching : ¹®ÀÚ¿­ ¸ÅÄª ¾Ë°í¸®Áò Á¤¸®
-  - ¿ø½Ã¸ÅÄª
-  - Automata
-  - KMP
-  - Rabin-Karp
-  
-- Tree : Æ®¸® ¾Ë°í¸®Áò Á¤¸®
-  - 2-3Æ®¸® 
-  - BÆ®¸® 
-  - ·¹µåºí·¢Æ®¸®
+### 07. StringMatching : ë¬¸ìžì—´ ë§¤ì¹­ ì•Œê³ ë¦¬ì¦˜ ì •ë¦¬
+- 7.1 ì›ì‹œë§¤ì¹­
+- 7.2 Automata
+- 7.3 KMP
+- 7.4 Rabin-Karp
