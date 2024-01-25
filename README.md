@@ -36,12 +36,14 @@
 
 ### [05. DynamicProgramming 동적프로그래밍 알고리즘](https://github.com/1Dohyeon/Study-Algorithms/tree/main/DynamicProgramming.md)
 
-- 5.1 최장 공통 부분 순서(LCS) 알고리즘
+- 5.1 Dynamic Programming
+- 5.2 최장 공통 부분 순서(LCS) 알고리즘
 
 ### [06. Greedy 눈 앞에 보이는 최적의 해를 구하는 알고리즘](https://github.com/1Dohyeon/Study-Algorithms/tree/main/Greedy.md)
 
-- 6.1 회의실 배정
-- 6.2 Huffman Code 알고리즘
+- 6.1 Greedy (그리디 알고리즘)
+- 6.2 회의실 배정
+- 6.3 Huffman Code 알고리즘
 
 ### [07. StringMatching 문자열 매칭 알고리즘 정리](https://github.com/1Dohyeon/Study-Algorithms/tree/main/StringMatching.md)
 
