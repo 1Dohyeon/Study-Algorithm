@@ -26,11 +26,11 @@
 - 위상정렬
   - 4.3 TopologicalSort 알고리즘
 - 최단경로
-  - 4.4 Dijkstra 알고리즘
-  - 4.5 Bellman-Ford 알고리즘
-  - 4.6 Floyd-Warshall 알고리즘
-- 싸이클이 없는 그래프에서의 최단 경로
-  - 4.7 DAT
+  - 4.4 Floyd-Warshall 알고리즘
+- 싸이클이 없는 그래프(DAG)에서의 최단 경로
+  - 4.5 Dijkstra 알고리즘
+  - 4.6 Bellman-Ford 알고리즘
+  - 4.7 위상정렬을 이용한 알고리즘
 - 강연결요소
   - 4.8 StronglyConnectedComponent 알고리즘
 
